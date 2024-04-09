@@ -57,4 +57,4 @@ CLI.add_argument("--url", help="url", type=str)
 args = CLI.parse_args()
 
 ff =fulfillForm(args.firstname, args.surname, args.phone, args.email, args.code, args.url, True)
-ff.proceed()
+ff.proceed(), 
